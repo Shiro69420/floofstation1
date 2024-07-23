@@ -432,6 +432,11 @@
     tags:
       - PlushieSharkBlue
       - Payload
+  - type: Extractable # Floofstation
+    juiceSolution:
+      reagents:
+      - ReagentId: Estrogen
+        Quantity: 30
 
 - type: entity
   parent: PlushieSharkBlue

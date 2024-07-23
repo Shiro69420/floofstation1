@@ -1,0 +1,12 @@
+- type: reaction
+  id: Estrogen
+  impact: High
+  reactants:
+    Carbon:
+      amount: 5
+    Benzene:
+      amount: 5
+    Oxygen:
+      amount: 5
+  products:
+    Estrogen: 15

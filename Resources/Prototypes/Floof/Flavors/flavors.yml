@@ -1,0 +1,4 @@
+- type: flavor
+  id: estrogen-flavor
+  flavorType: Complex
+  description: flavor-complex-estrogen

@@ -1,0 +1,1 @@
+estrogen-popup-message = You start to feel yourself feminizing

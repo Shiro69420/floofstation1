@@ -1,0 +1,23 @@
+- type: reagent
+  id: Estrogen
+  group: Biological
+  name: reagent-name-estrogen
+  desc: reagent-desc-estrogen
+  physicalDesc: reagent-physical-desc-soothing
+  flavor: estrogen-flavor
+  color: "#82d1b9"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:GenericStatusEffect
+        key: GenderChange
+        component: GenderChange
+        type: Add
+        time: 16
+        refresh: false
+      # components: GenderChange
+      - !type:PopupMessage
+        type: Local
+        visualType: Large
+        messages: [ "estrogen-popup-message" ]
+        probability: 0.05
