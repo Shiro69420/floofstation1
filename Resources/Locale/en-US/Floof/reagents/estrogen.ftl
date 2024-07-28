@@ -1,1 +1,1 @@
-estrogen-popup-message = You start to feel yourself feminizing
+estrogen-popup-message = You feel the essence of blahaj inside you

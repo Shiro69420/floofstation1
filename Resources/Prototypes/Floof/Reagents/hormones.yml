@@ -9,15 +9,8 @@
   metabolisms:
     Medicine:
       effects:
-      - !type:GenericStatusEffect
-        key: GenderChange
-        component: GenderChange
-        type: Add
-        time: 16
-        refresh: false
-      # components: GenderChange
       - !type:PopupMessage
-        type: Local
-        visualType: Large
-        messages: [ "estrogen-popup-message" ]
-        probability: 0.05
+          type: Local
+          visualType: Large
+          messages: [ "estrogen-popup-message" ]
+          probability: 0.05
